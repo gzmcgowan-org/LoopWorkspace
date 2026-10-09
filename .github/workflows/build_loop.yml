@@ -214,7 +214,6 @@ jobs:
           future_carbs_4h \
           low_carb_limit \
           high_carb_limit \
-          override_sens \
           now_line \
           watch_title \
           2hlollipop \
