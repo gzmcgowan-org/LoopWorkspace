@@ -240,8 +240,6 @@ jobs:
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           future_carbs_4h \
-          low_carb_limit \
-          high_carb_limit \
           now_line \
           watch_title \
           2hlollipop \
@@ -252,6 +250,10 @@ jobs:
           negative_insulin \
           remote_window \
           xdrip_cgm
+          #these did not work. commented out
+          #low_carb_limit \
+          #high_carb_limit \
+          
           
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
